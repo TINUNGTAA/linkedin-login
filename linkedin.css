@@ -41,16 +41,16 @@ input{
 
 a{
     text-decoration: none;
-<<<<<<< HEAD
+
     color:rgb(46, 97, 238);
     font-size: 15px;
     font-weight: 500;
-=======
+
     color:#0a66c2;
     font-size: 15px;
     font-weight: 1000;
     
->>>>>>> 495542b44f7fff1ab2cc8828253e86674d6e5e13
+
 
    
 }
@@ -64,11 +64,11 @@ button{
     padding: 12px;
     border-radius: 60px;
     color: white;
-<<<<<<< HEAD
+
     background-color: rgb(46, 97, 238);
-=======
+
     background-color: #0a66c2;
->>>>>>> 495542b44f7fff1ab2cc8828253e86674d6e5e13
+
     font-size: 20px;
     border: 1px solid transparent;
     margin-top: 20px;
@@ -78,7 +78,7 @@ button{
 
 button:hover{
     background-color: lightblue;
-    color: black;
+    color: rgb(26, 21, 21);
 }
 
 
