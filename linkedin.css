@@ -3,7 +3,7 @@
     box-sizing: border-box;
    
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif !important;
 }
 
 body{
@@ -87,7 +87,7 @@ button{
 
     font-size: 20px;
     border: 1px solid transparent;
-    margin-top: 20px;
+    margin-top: 50px;
 
     
 }
@@ -95,6 +95,19 @@ button{
 button:hover{
     background-color: lightblue;
     color: rgb(26, 21, 21);
+
+}
+
+
+
+
+.checkbox{
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    
+    
 
 }
 
@@ -107,7 +120,52 @@ button:hover{
     border-radius: 30px;
     background-repeat: no-repeat;
     background-position: 70px  10px;
+    
 }
+
+
+
+.link p{
+    position: absolute;
+    bottom: 130px;
+    right:45%;
+   
+    
+
+    }   
+    
+
+.footer{
+    position: absolute;
+    bottom: 0%;
+    z-index: 10;
+    display:inline-flex;
+    text-align: center;
+    justify-content:center ;
+    word-spacing: 30px;
+    margin-top: 600px;
+    
+
+}
+
+
+    .link p{
+    position: absolute;
+    bottom: 30px;
+    right:45%;
+    margin-bottom:50px;
+    
+    
+    
+
+ }   
+    
+    
+
+
+ 
+   
+    
 
 
 
