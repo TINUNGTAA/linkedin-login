@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Linkedin/Login</title>
-        <link rel="stylesheet"  href="linkedin.css">
-        <script src="https://kit.fontawesome.com/0c4f479b23.js" crossorigin="anonymous"></script>
-        
-    </head>
-    <body>
 
-        <header>
-            <div class="icon">
-            <h2 style="margin-top: 50px; color:rgb(46, 97, 238);">Linked<span style="border:1px solid transparent; background-color:rgb(46, 97, 238); color:white; padding-top:2px ; border-radius:5px; padding-right:3px; padding-bottom: 0px; ">in</span></h2>             
-            </div>
-        </header>
+<head>
+    <title>Linkedin/Login</title>
+    <link rel="stylesheet" href="linkedin.css">
+    <script src="https://kit.fontawesome.com/0c4f479b23.js" crossorigin="anonymous"></script>
 
-        <form  class="wrap">
-             <h1 style="margin-bottom:-12px;">Sign in</h1>
+</head>
+
+<body>
+
+    <header>
+        <div class="icon">
+            <h2 style="margin-top: 50px; color:rgb(46, 97, 238);">Linked<span
+                    style="border:1px solid transparent; background-color:rgb(46, 97, 238); color:white; padding-top:2px ; border-radius:5px; padding-right:3px; padding-bottom: 0px; ">in</span>
+            </h2>
+        </div>
+    </header>
+
+    <div style="width: 100%; display: flex; justify-content: center;">
+        <form class="wrap">
+            <h1 style="margin: 0px;">Sign in</h1>
             <p style="font-size: 14px;">Stay updated on your professional world</p>
 
-            <input  class="input-box" type="email" placeholder="Email"  style="margin-top: 10px;" ><br>
-            <input  class="input-box" type="password" placeholder="Password"   style="margin-bottom:25px;" > <br>
+            <input class="input-box" type="email" placeholder="Email" style="margin-top: 10px;"><br>
+            <input class="input-box" type="password" placeholder="Password">
+            <br />
+            <a href="#">Forgot password?</a>
+            <div style="display: flex; justify-content: start; margin-top: 8px;">
+                <input type="checkbox" id="check" style="width: fit-content; margin-right: 8px;">
+                <label for="check">Keep me logged in</label>
+            </div>
+            <br />
+            <button class="primary-btn" type="submit">Sign in</button>
+            <br />
+            <p>By clicking continue,you agree to linkedin's <a href="#">User<br> Agreement</a> ,<a href="#">Privacy
+                    Policy</a> and <a href="#">Cookie Policy</a>
+            </p>
 
-            <a href="#"    >Forgot password</a><br>
-             <div class="checkbox">
-                <input type="checkbox" id="check">
-             <label for="check">Keep me logged in</label>
-             </div>
-             
-            
-            <button type="submit">Sign in</button  >
-
-            <p style="margin-bottom: 40px;  color:rgb(46, 97, 238);"> New to linkedin? <a href="# ">Join now</a></p>
-
-            <p>By clicking continue,you agree to linkedin's <a href="#">User<br> Agreement</a> ,<a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a></p>
-             
-           
-               <div class="click">
-                <input type="text"    placeholder="continue with google" style="color: black; text-align:center;">
-               </div>
-
-               <div class="click">
-                <!-- <i class="fa-brands fa-apple "></i>  -->
-                <input type="text"     placeholder="continue with apple" style="font-weight:600;  margin-bottom: 60px; background-image:url(apple.svg) "  > 
-                
-               </div>
-               </div>
-                 
-        
-           
-           
-            
-  
-            
+            <button class="secondary-btn">
+                <img src="google.svg" alt="google" style="width: 30px; height: 30px; margin-right: 16px;">
+                Continue with Google
+            </button>
+            <br />
+            <button class="secondary-btn">
+                <img src="apple.svg" alt="google" style="width: 30px; height: 30px; margin-right: 16px;">
+                Sign in with Apple
+            </button>
         </form>
-        <div class="link">
-            <p >New to linkedin? <a href="#">join now</a> </p>
-        </div>
-        
-      
-       
-        <div class="footer">
-        <p>linked<span style="border:1px solid transparent; background-color:black; color:white; padding-top:0px ; border-radius:5px; padding-right:3px; padding-left:3px; padding-bottom: 0px; margin-left:2px;">in</span> </p> <br>
+    </div>
+
+    <div style="width: 100%; display: flex; justify-content: center; margin-top: 32px;">
+        <p>New to linkedin? <a href="#">join now</a> </p>
+    </div>
+
+
+    <div class="footer">
+        <p>linked
+            <span
+                style="border:1px solid transparent; background-color:black; color:white; padding-top:0px ; border-radius:5px; padding-right:3px; padding-left:3px; padding-bottom: 0px; margin-left:2px;">
+                in
+            </span>
+        </p> <br>
         <p>2024</p><br>
         <p>User Agreement</p><br>
         <p>Privacy Policy</p><br>
@@ -70,8 +71,8 @@
         <p>Send Feedback</p>
         <p>Language</p>
 
-        </div>
-       
-    </body>
-   
+    </div>
+
+</body>
+
 </html>
