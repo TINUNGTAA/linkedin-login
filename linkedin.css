@@ -27,8 +27,7 @@
 header {
   padding-left: 5px;
   width: 100%;
-  display:flex;
-  
+  display: flex;
 }
 
 .wrap {
@@ -50,7 +49,7 @@ input {
 }
 
 input[type="checkbox"]:checked {
-  background-color:  #0a66c2;
+  background-color: #0a66c2;
   border: 1px solid#0a66c2;
 }
 
@@ -58,13 +57,12 @@ a {
   text-decoration: none;
   font-size: 15px;
   font-weight: 600;
-  color:#0a66c2;
+  color: #0a66c2;
   font-size: 15px;
-  
 }
 
 a:hover {
-  color:#79a4cf;
+  color: #79a4cf;
 }
 
 .footer {
@@ -116,20 +114,13 @@ button {
   border: none;
 }
 
-#foot0 a{
-  color:rgb(7, 7, 7);
+.footer-link {
+  padding: 20px;
+  color: rgb(119, 119, 119);
+  font-size: 12px;
+  font-weight: 500px;
 }
 
-
-.foot a{
- padding:20px;
- color:rgb(119, 119, 119);
- font-size: 12px;
- font-weight: 500px;
-
-}
-
-.foot a:hover{
+.footer-link:hover {
   color: #0a66c2;
 }
-
